@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNUST Survey - Hosting Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        .success {
+            color: #4ade80;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .test-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #10b981;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 10px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .test-button:hover {
+            background: #059669;
+        }
+        .checks {
+            text-align: left;
+            margin: 20px 0;
+        }
+        .check {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="success">✅ Hosting is Working!</div>
+        
+        <h1>KNUST Survey - Deployment Test</h1>
+        
+        <p>If you can see this page, your web hosting is working correctly.</p>
+        
+        <div class="checks">
+            <div class="check">✅ Web server is running</div>
+            <div class="check">✅ Files uploaded successfully</div>
+            <div class="check">✅ Domain/URL is accessible</div>
+            <div class="check">✅ Ready to test the main survey</div>
+        </div>
+        
+        <h2>Next Steps:</h2>
+        <p>Click the button below to access your KNUST survey:</p>
+        
+        <a href="index.html" class="test-button">🚀 Launch KNUST Survey</a>
+        <a href="index.html?admin=true" class="test-button">📊 Admin Dashboard</a>
+        
+        <hr style="margin: 30px 0; opacity: 0.3;">
+        
+        <h3>Troubleshooting</h3>
+        <p>If the survey doesn't load:</p>
+        <ul style="text-align: left; display: inline-block;">
+            <li>Check browser console (F12) for errors</li>
+            <li>Verify all files uploaded including assets/ folder</li>
+            <li>Make sure index.html is in the root directory</li>
+            <li>Try clearing browser cache (Ctrl+F5)</li>
+        </ul>
+        
+        <p style="margin-top: 30px; font-size: 0.9em; opacity: 0.8;">
+            KNUST Survey - Brand Equity Research<br>
+            Powered by Chadan Research Consult
+        </p>
+    </div>
+</body>
+</html>
